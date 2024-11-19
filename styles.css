@@ -1,0 +1,363 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+}
+
+
+
+header .logo {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero {
+    background: #f4f4f4;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+header {
+    width: 100%; /* Define a largura do cabeçalho */
+    padding: 20px; /* Espaço interno opcional */
+    background-color: #000000; /* Cor de fundo do cabeçalho */
+}
+
+h9 {
+    margin: 0 auto; /* Margens automáticas para centralizar */
+    width: fit-content; /* Ajusta a largura do h1 ao seu conteúdo */
+    font-size: 22px;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+
+#produtos {
+    padding: 2rem;
+}
+
+#sobre {
+    padding: 2rem;
+}
+
+.produtos-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.produto {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 1rem;
+    width: 30%;
+    text-align: center;
+    margin: 10px;
+}
+
+.produto img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    background: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 20px; /* Adiciona um pouco de espaço */
+    text-align: left; /* Alinha o texto à esquerda */
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+
+header {
+    background: green; /* Cor de fundo do cabeçalho */
+    color: #fff;      /* Cor do texto */
+    padding: 1rem;    /* Espaçamento interno */
+    position: relative; /* Para usar posicionamento absoluto */
+}
+
+.botao1 {
+    position: absolute; /* Permite posicionar o botão */
+    top: 0px;         /* Distância do topo */
+    left: 10px;        /* Distância da esquerda */
+    background-color: #6d6262; /* Cor de fundo do botão */
+    color: #ffffff;      /* Cor do texto do botão */
+    border: none;     /* Sem borda */
+    padding: 10px 20px; /* Espaçamento interno do botão */
+    border-radius: 5px; /* Bordas arredondadas */
+    cursor: pointer;   /* Cursor de ponteiro ao passar o mouse */
+    transition: background-color 0.3s; /* Transição suave */
+}
+
+.botao2 {
+    position: absolute; /* Permite posicionar o botão */
+    top: 10px;         /* Distância do topo */
+    left: 10px;        /* Distância da esquerda */
+    background-color: #6b5f5f; /* Cor de fundo do botão */
+    color: #ffffff;      /* Cor do texto do botão */
+    border: none;     /* Sem borda */
+    padding: 10px 20px; /* Espaçamento interno do botão */
+    border-radius: 5px; /* Bordas arredondadas */
+    cursor: pointer;   /* Cursor de ponteiro ao passar o mouse */
+    transition: background-color 0.3s; /* Transição suave */
+}
+
+.botao3 {
+    position: absolute; /* Permite posicionar o botão */
+    top: 10px;         /* Distância do topo */
+    left: 100px;        /* Distância da esquerda */
+    background-color: #6b5f5f; /* Cor de fundo do botão */
+    color: #ffffff;      /* Cor do texto do botão */
+    border: none;     /* Sem borda */
+    padding: 10px 20px; /* Espaçamento interno do botão */
+    border-radius: 5px; /* Bordas arredondadas */
+    cursor: pointer;   /* Cursor de ponteiro ao passar o mouse */
+    transition: background-color 0.3s; /* Transição suave */
+}
+
+.botao1:hover {
+    background-color: #2b2828; /* Cor de fundo ao passar o mouse */
+    color: #fff;            /* Cor do texto ao passar o mouse */
+}
+
+.botao2:hover {
+    background-color: #2b2828; /* Cor de fundo ao passar o mouse */
+    color: #fff;            /* Cor do texto ao passar o mouse */
+}
+
+.botao3:hover {
+    background-color: #2b2828; /* Cor de fundo ao passar o mouse */
+    color: #fff;            /* Cor do texto ao passar o mouse */
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px; /* Ajuste conforme necessário */
+    min-height: 60px; /* Define uma altura mínima */
+    background-color: #362020; /* Cor de fundo do cabeçalho */
+}
+
+
+.logo {
+    position: absolute; /* Posiciona a logo em relação ao cabeçalho */
+    top: 1px; /* Distância do topo */
+    left: 1250px;
+    right: 50px; /* Distância da direita */
+    height: 50px; /* Ajusta a altura da logo */
+    width: auto; /* Mantém a proporção da imagem */
+}
+
+
+body {
+    /* Fonte padrão */
+    margin: 0; /* Remove margens padrão do body */
+    background-color: #f4f4f4; /* Cor de fundo */
+    color: #333; /* Cor do texto */
+}
+
+header {
+    display: flex;
+    justify-content: space-between; /* Espaça os itens */
+    align-items: center; /* Alinha verticalmente */
+    padding: 20px; /* Espaço interno */
+    background-color: rgb(94, 95, 97); /* Cor de fundo do cabeçalho */
+    color: white; /* Cor do texto */
+}
+
+h1 {
+    margin: 0; /* Remove margens do h1 */
+}
+
+.logo {
+    width: 100px; /* Tamanho da logo */
+    height: auto; /* Mantém a proporção */
+}
+
+
+#sobre {
+    padding: 20px; /* Espaço interno */
+    background-color: white; /* Cor de fundo da seção */
+    margin: 20px; /* Margem em volta da seção */
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+h2 {
+ color: rgb(0, 110, 8);
+    text-align: center;
+    margin: auto;
+}
+
+.botao {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: green;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+.botao:hover {
+    background-color: rgb(0, 90, 0);
+}
+
+body {
+    margin: 0;
+    background-color: white;
+}
+
+.testeimagem {
+    background-image: url('teste imagem.jpeg');
+    height: 350px;
+    background-attachment: fixed; /* Faz o efeito parallax */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Não repete a imagem */
+    background-size: cover; /* Cobre todo o espaço disponível */
+}
+
+.testeimagem2 {
+    background-image: url('testeimagem3.jpeg');
+    height: 350px;
+    background-attachment: fixed; /* Faz o efeito parallax */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Não repete a imagem */
+    background-size: cover; /* Cobre todo o espaço disponível */
+}
+
+.testeimagem3 {
+    background-image: url('testeimagem4.jpeg');
+    height: 350px;
+    background-attachment: fixed; /* Faz o efeito parallax */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Não repete a imagem */
+    background-size: cover; /* Cobre todo o espaço disponível */
+}
+
+.testeimagem4 {
+    background-image: url('testeimagem2.jpeg');
+    height: 350px;
+    background-attachment: fixed; /* Faz o efeito parallax */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Não repete a imagem */
+    background-size: cover; /* Cobre todo o espaço disponível */
+}
+
+.texto {
+    padding: 20px;
+    background-color: white; /* Para destacar o texto */
+}
+
+.container {
+    text-align: center; /* Centraliza o texto dentro da div */
+    padding: 20px; /* Adiciona algum espaço interno, se desejado */
+}
+
+h1 {
+    margin-top: 0; /* Remove margem superior, se necessário */
+    text-align: left;
+    margin-left: 10px;
+    color: rgb(0, 110, 8);
+}
+
+.botao1 {
+    top: 18px;
+    left: 25px;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: green;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+.botao1:hover {
+    background-color: rgb(0, 90, 0);
+}
+
+.botao2 {
+    top: 18px;
+    left: 130px;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: green;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+.botao2:hover {
+    background-color: rgb(0, 90, 0);
+}
+
+p {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.colaboradores {
+    margin-left: 1000px;
+    top: 0px;
+
+}
+
+j {
+    margin-left: 1000px;
+    margin-top: 0px;
+}
+
+/* Estilo para o link com a classe "botaop" */
+.botaop {
+    display: inline-block;
+    background-color: green; /* Cor de fundo */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none; /* Remover sublinhado */
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.botaop:hover {
+    background-color: rgb(0, 90, 0); /* Cor ao passar o mouse */
+}
+
+
+
+.container{
+    text-align: center;
+}
+
+h3 {
+    color: rgb(13, 93, 99);
+       text-align: center;
+       margin: auto;
+    
+   }
